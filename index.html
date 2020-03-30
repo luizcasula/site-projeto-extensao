@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Ônibus Ji-Paraná</title>
-  </head>
-  <body>
-      <header>
-        <!--Imagem-->
-        <img class="logo" src="public/images/logo.png" alt="logo">
-        <!--Navbar-->
-        <nav class="nav-links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Fale Conosco</a></li>
-          </ul>
-        </nav>
-        <!--<a class="cta" href="#"><button>Contact</button></a>-->
-      </header>
-      <br><br><br><br>
-      <h1>TEXTO</h1>
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+  <nav id="menu">
+    <uL>
+      <li><img src="file:///D:/Modelo%20-%205.5.1.png" height="50" width="50" id="logo"> </li>
+      <li><a href=""> Inicial </a></li>
+      <li><a href=""> Sobre o Produto </a></li>
+      <li><a href=""> Sobre Nós </a></li>
+      <li><a href=""> Contato </a></li>
+    </uL>
+  </nav>
 
-  </body>
+  <div id="firstcontent"> <!--First Container-->
+    <div id="txtcontainer-left">
+      <h1 id="command"> BAIXE AGORA</h1>
+      <h3 id="catchphrase"> Vá para onde quiser, de onde <br> estiver!</h3>
+    </div>
+
+    <div id="txtcontainer-right">
+    <img src="D:\Celular.png" height="1080" width="1920" id="cellphone">
+    </div>
+
+    <img src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" height="200px" width="220px" id="applestore">
+    <img src="https://cdn.worldvectorlogo.com/logos/google-play-download-android-app.svg" height="200px" width="220px" id="googleplay">
+
+    </div>
+    <hr>
+
+    <div id="apcontainer">  <!--About Product Container-->
+     <div id="apcontainer-left">
+      <h1 id="abproduct"> Sobre o Produto </h1>
+      <h3 id="aboutproduct"> O aplicativo +Bus tem como finalidade promover a facilidade e praticidade no deslocamento <br> de pessoas na cidade utilizando-se  do transporte público, tornando assim sua viagem mais fácil, rápida e barata. </h3>
+    </div>
+      <div id="apcontainer-right">
+      <img src="D:\Poligon.png" width="600" height="600" id="poligons">
+    </div>
+    </div>
+    <hr>
+
+    <div id="aucontainer"> <!--About us container-->
+      <div id="incontainer">
+        <h1 id="aboutus"> Sobre nós </h1>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/cd2y04P8Qrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+        <div id="incontainer-right">
+          <h3 id="aboutustxt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="contactus">
+      <div id="intermediary">
+        <h1 id="contacttxt"> Contato </h1>
+
+        <h2 id="name" class="labels"> Nome </h1>
+         <input type="text" id="nametxt" class="textbox">
+        <h2 id="email" class="labels"> Email </h2>
+         <input type="text" id="emailtxt" class="textbox">
+        <h2 id="message" class="labels"> Mensagem</h2>
+         <input type="text" id="messagetxt"> <br>
+         <button type="submit" id="send"> Enviar </button>
+      </div>
+
+    </div>
+
+ </body>
 </html>
