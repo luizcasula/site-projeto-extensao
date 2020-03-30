@@ -1,0 +1,214 @@
+#menu{
+ background-color: #1a1a32;
+ padding: 0px;
+ margin: 0px;
+ list-style: none;
+ width: auto;
+ height: 80px;
+}
+#menu ul li {
+    display: inline;
+    font-size: large;
+    font-family: Arial;
+    padding-bottom: 0px;
+}
+
+#menu ul li a{
+    color: white;
+    padding: 181px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+#command{
+    font-size: 50px;
+    padding-right: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 200px;
+    margin-left: 130px;
+    margin-bottom: 0px;
+    color: #262626;
+}
+
+#catchphrase{
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 190px;
+    padding-right: 0px;
+    color: #262626;
+}
+
+#googleplay{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+#applestore{
+    padding-top: 200px;
+    padding-left: 450px;
+}
+
+#div #cellphone{
+    position: absolute;
+    padding-left: 0px;
+    bottom: 50%;
+}
+
+body{
+    background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
+}
+
+#txtcontainer-left{
+    float: left;
+    width: 50%;
+    height: 450px;
+}
+
+#txtcontainer-right{
+    float: right;
+    width: 50%;
+    height: 800px;
+    overflow: hidden;
+}
+
+#divisionline{
+    padding-top: 100px;
+}
+
+#apcontainer{
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+}
+
+#apcontainer-left{
+    height: 600px;
+    max-width: 50%;
+    float: left;
+}
+
+#abproduct{
+    padding-top: 170px;
+    padding-left: 120px;
+    font-size: 70px;
+    padding-bottom: 0px;
+    font-family: Arial;
+}
+
+#aboutproduct{
+    padding-left: 160px;
+    padding-top: 0px;
+    font-family: Arial;
+}
+
+#poligons{
+    padding-left: 300px;
+}
+
+#aucontainer{
+    background-color: white;
+    height:600px;
+    width: auto;
+}
+
+#incontainer{
+    background-color:#20415b;
+    height: 550px;
+    float:left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+}
+
+#incontainer-right{
+    float: right;
+    height: 315px;
+    width: 720px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#video{
+    padding-top: 0px;
+    padding-left: 70px;
+    float: left;
+}
+
+#aboutus{
+    padding-left: 490px;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#aboutustxt{
+    float: right;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+#contactus{
+    background-color: #1a1a33;
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#intermediary{
+    background-color: #4a4a5d;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto 0 auto;
+    border-radius: 30px;
+}
+
+#contacttxt{
+    color: white;
+    padding-left: 750px;
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+}
+
+.labels{
+    color: #9e9ea5;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    padding-left: 600px;
+    margin-bottom: 0px;
+}
+.textbox{
+    border-radius: 40px;
+    margin-left: 590px;
+    height: 30px;
+    width: 500px;
+    margin-top: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#messagetxt{
+    border-radius: 25px;
+    margin-left: 590px;
+    height: 150px;
+    width: 500px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#send{
+    margin-left: 800px;
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #1a1a33;;
+    font-size: 20px;
+}
