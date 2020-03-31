@@ -1,7 +1,8 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif, Arial;
+  color: #262626;
 }
 
 body, footer{
@@ -22,7 +23,7 @@ form{
 label{
   color: #9e9ea5;
   font-size: 30px;
-  font-family: 'Times New Roman', sans-serif;
+  font-family: sans-serif;
   padding-left: 600px;
   margin-bottom: 0px;
 }
@@ -38,11 +39,27 @@ input{
     border-color: black;
 }
 
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-size: 30px;
+  width: 50%;
+  text-align: justify;
+}
+
+form{
+  background-color: #4a4a5d;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto 0 auto;
+  border-radius: 30px;
+}
+
 form h1{
   color: white;
   padding-left: 750px;
-  font-family: Arial, sans-serif;
-  font-size: 45px;
 }
 
 form input #sendbutton{
@@ -58,10 +75,17 @@ form input #sendbutton{
     font-size: 20px;
 }
 
+iframe{
+  width: 888px;
+  height: 500px;
+}
+
 .container{
-  height: auto;
-  display: flex;
+  display: block;
+  margin-top: 40px;
+  height: 1040px;
   width: 100%;
+  border: 0px 40px;
 }
 
 .right{
@@ -73,7 +97,9 @@ form input #sendbutton{
   float: left;
 }
 
-
+.container img{
+    bottom: 50%;
+}
 
 #logo{
   height: 75px;
@@ -106,12 +132,9 @@ form input #sendbutton{
 #welcome{
   display: inline-block;
   justify-content: space-between;
-  font-family: sans-serif;
-  color: #262626;
 }
 
 #welcome h1{
-  font-size: 50px;
   padding-right: 0px;
   margin: 200px 130px 0px;
 }
@@ -124,18 +147,14 @@ form input #sendbutton{
 
 #welcome .left{
   width: 50%;
-  height: 450px;
 }
 
 #welcome .right{
   width: 50%;
-  height: 800px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
 }
 
-#button {
-  margin: 150px 250px;
+#button{
+  margin: 350px 150px;
 }
 
 #button a img{
@@ -144,111 +163,25 @@ form input #sendbutton{
   padding: 0px 15px;
 }
 
-#cellphone{
-    padding-bottom: 100px;
-    bottom: 50%;
+#aboutUs{
+  display: inline-block;
+  justify-content: space-between;
 }
 
+#aboutProduct{
+
+}
+
+#aboutProduct p{
+  padding-top: 170px;
+  padding-bottom: 0px;
+}
+
+#aboutProduct img{
+  padding-right: 160px;
+  margin: 0;
+}
 
 #messageTextField{
     height: 150px;
-}
-
-
-
-#divisionline{
-    padding-top: 100px;
-}
-
-#apcontainer{
-    width: 100%;
-    height: 600px;
-    background-color: transparent;
-}
-
-#apcontainer-left{
-    height: 600px;
-    max-width: 50%;
-    float: left;
-}
-
-#abproduct{
-    padding-top: 170px;
-    padding-left: 120px;
-    font-size: 70px;
-    padding-bottom: 0px;
-    font-family: Arial;
-}
-
-#aboutproduct{
-    padding-left: 160px;
-    padding-top: 0px;
-    font-family: Arial;
-}
-
-#poligons{
-    padding-left: 300px;
-}
-
-#aucontainer{
-    background-color: white;
-    height:600px;
-    width: auto;
-}
-
-#incontainer{
-    background-color:#20415b;
-    height: 550px;
-    float:left;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 70%;
-}
-
-#incontainer-right{
-    float: right;
-    height: 315px;
-    width: 720px;
-    padding-right: 40px;
-    padding-left: 40px;
-}
-
-#video{
-    padding-top: 0px;
-    padding-left: 70px;
-    float: left;
-}
-
-#aboutus{
-    padding-left: 490px;
-    font-size: 50px;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-#aboutustxt{
-    float: right;
-    color: white;
-    font-size: 28px;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-}
-
-#contactus{
-    background-color: #1a1a33;
-    height: 700px;
-    width: 100%;
-    padding-top: 100px;
-}
-
-#intermediary{
-    background-color: #4a4a5d;
-    width: 90%;
-    height: 600px;
-    margin: 0 auto 0 auto;
-    border-radius: 30px;
-}
-
-#contacttxt{
-
 }

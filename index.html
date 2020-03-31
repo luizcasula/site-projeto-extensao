@@ -10,31 +10,31 @@
 
  <body>
 
-  <header id="menu">
-    <nav>
-      <img src="public/images/logo.png" id="logo">
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Sobre o Produto</a></li>
-        <li><a href="">Sobre Nós</a></li>
-        <li><a href="">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+   <header id="menu">
+     <nav>
+       <img src="public/images/logo.png" id="logo">
+       <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">Sobre o Produto</a></li>
+         <li><a href="">Sobre Nós</a></li>
+         <li><a href="">Contato</a></li>
+       </ul>
+     </nav>
+   </header>
 
   <!--Welcome Container-->
-  <div class="container" id="welcome">
-    <div class="left">
-      <h1>BAIXE AGORA!</h1>
-      <h3> Vá para onde quiser, de onde<br>estiver!</h3>
-      <div id="button">
-        <a href=""><img src="public/images/available-on-the-app-store.svg"></a>
-        <a href=""><img src="public/images/google-play-download-android-app.svg"></a>
+    <div class="container" id="welcome">
+      <div class="left">
+        <h1>BAIXE AGORA!</h1>
+        <h3> Vá para onde quiser, de onde<br>estiver!</h3>
+        <div id="button">
+          <a href=""><img src="public/images/available-on-the-app-store.svg"></a>
+          <a href=""><img src="public/images/google-play-download-android-app.svg"></a>
+        </div>
       </div>
-    </div>
-      <div class="right">
-        <img src="public/images/celular.png" id="cellphone">
-      </div>
+        <div class="right">
+          <img src="public/images/celular.png" id="cellphone">
+        </div>
     </div>
 
     <hr>
@@ -42,52 +42,51 @@
 
     <!--About Product-->
 
-    <div class="container" id="apcontainer">
-     <div id="apcontainer-left">
-      <h1 id="abproduct"> Sobre o Produto </h1>
-      <p id="aboutproduct">O aplicativo +Bus tem como finalidade promover a facilidade e praticidade no deslocamento de pessoas na cidade utilizando-se  do transporte público, tornando assim sua viagem mais fácil, rápida e barata.</p>
-    </div>
-      <div id="apcontainer-right">
-      <img src="public/images/poligon.png" width="600" height="600" id="poligons">
-    </div>
-    </div>
-    <hr>
-
-    <!--About us-->
-    <div id="aucontainer">
-      <div id="incontainer">
-        <h1 id="aboutus"> Sobre nós </h1>
-        <iframe width="450" height="315" src="https://www.youtube.com/embed/cd2y04P8Qrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
-        <div id="incontainer-right">
-          <p id="aboutustxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <div class="container" id="aboutProduct">
+      <div class="left">
+          <h1>Sobre o Produto</h1>
+          <p>O aplicativo +Bus tem como finalidade promover a facilidade e praticidade no deslocamento de pessoas na cidade utilizando-se  do transporte público, tornando assim sua viagem mais fácil, rápida e barata.</p>
+        </div>
+        <div class="right">
+          <img src="public/images/poligon.png" width="600" height="600">
         </div>
       </div>
+
+
+    <hr>
+
+    <div class="container">
+      <iframe  src="https://www.youtube.com/embed/cd2y04P8Qrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+    </div>
+
+    <hr>
+    <!--About us-->
+    <div class="container" id="aboutUs">
+        <h1>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     </div>
 
     <hr>
 
-  <!--Contact-->
-  <div class="container">
-    <form class="" action="index.html" method="post">
-      <div id="intermediary">
-
-        <h1>Contato</h1>
-
-        <label>Nome</label>
-        <input type="text" name="name">
-        <br>
-        <label>Email</label>
-        <input type="email" name="email">
-        <br>
-        <label>Mensagem</label>
-        <input type="text" id="messageTextField" placeholder="Digite sua mensagem aqui!"> <br>
-        <br>
-        <input type="submit" id="#sendbutton">Enviar</input>
+    <!--Contact-->
+    <div class="container">
+      <form class="" action="index.html" method="post">
+          <h1>Contato</h1>
+          <label>Nome</label>
+          <input type="text" name="name">
+          <br>
+          <label>Email</label>
+          <input type="email" name="email">
+          <br>
+          <label>Mensagem</label>
+          <input type="text" id="messageTextField" placeholder="Digite sua mensagem aqui!"> <br>
+          <br>
+          <input type="submit" id="#sendbutton">Enviar</input>
+        </form>
       </div>
-      </form>
-    </div>
-    <footer>
 
-    </footer>
- </body>
+      <footer>
+
+      </footer>
+  </body>
 </html>
