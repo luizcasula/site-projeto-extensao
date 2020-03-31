@@ -1,3 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
+}
+
+header{
+  display: flex;
+  position: fixed;
+}
+
+#menu{
+  display: flex;
+  height: auto;
+  width: 100%;
+  background-color: #1a1a32;
+}
+
+
+#menu nav{
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20%;
+  font-family: Arial;
+}
+
+#menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#menu li a:hover{
+  color: #0088a9
+}
+
+#menu li, a, button{
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+#logo{
+  height: 75px;
+  width: auto;
+}
+
+
+/*
 #menu{
  background-color: #1a1a32;
  padding: 0px;
@@ -6,10 +57,10 @@
  width: auto;
  height: 80px;
 }
+
 #menu ul li {
     display: inline;
     font-size: large;
-    font-family: Arial;
     padding-bottom: 0px;
 }
 
@@ -19,6 +70,7 @@
     padding-bottom: 0px;
     text-decoration: none;
 }
+*/
 
 #command{
     font-size: 50px;
@@ -55,9 +107,7 @@
     bottom: 50%;
 }
 
-body{
-    background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
-}
+
 
 #txtcontainer-left{
     float: left;
