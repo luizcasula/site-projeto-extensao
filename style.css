@@ -25,7 +25,7 @@ header{
 
 #menu li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 
 #menu li a:hover{
@@ -33,7 +33,7 @@ header{
 }
 
 #menu li, a, button{
-  font-size: 16px;
+  font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
 }
