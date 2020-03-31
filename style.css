@@ -8,12 +8,7 @@ body{
 }
 
 header{
-  display: flex;
   position: fixed;
-}
-
-#menu{
-  display: flex;
   height: auto;
   width: 100%;
   background-color: #1a1a32;
@@ -21,6 +16,7 @@ header{
 
 
 #menu nav{
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20%;
