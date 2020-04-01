@@ -17,10 +17,6 @@ header{
   background-color: #1a1a32;
 }
 
-form{
-  align-items: center;
-}
-
 label{
   color: #9e9ea5;
   font-size: 30px;
@@ -52,9 +48,7 @@ p{
 
 form{
   background-color: #4a4a5d;
-  width: 90%;
   height: 600px;
-  margin: 0 auto 0 auto;
   border-radius: 30px;
 }
 
@@ -82,10 +76,10 @@ iframe{
 }
 
 .container{
-  display: block;
-  margin-top: 105px;
   height: 1040px;
-  width: 100%;
+  width: 90%;
+  margin: 105px auto 0px;
+  align-items: center;
 }
 
 .right{
@@ -98,7 +92,7 @@ iframe{
 }
 
 .container img{
-    bottom: 50%;
+
 }
 
 #logo{
@@ -112,6 +106,7 @@ iframe{
   align-items: center;
   padding: 15px 20%;
   font-family: Arial;
+
 }
 
 #menu li {
@@ -131,27 +126,27 @@ iframe{
 
 #welcome{
   display: inline-block;
-  justify-content: space-between;
+  margin-top: 210px;
 }
 
 #welcome h1{
-  padding-right: 0px;
-  margin: 200px 130px 0px;
+  /*padding-right: 0px;
+  margin: 200px 130px 0px;*/
 }
 
 #welcome h3{
     font-size: 35px;
-    margin: 0px 190px;
-    padding-right: 0px;
+  /*margin: 0px 190px;
+  padding-right: 0px;*/
 }
-
+/*
 #welcome .left{
   width: 50%;
 }
 
 #welcome .right{
   width: 50%;
-}
+}*/
 
 #button{
   margin: 350px 150px;
@@ -163,25 +158,20 @@ iframe{
   padding: 0px 15px;
 }
 
-#aboutUs{
-  display: inline-block;
-  justify-content: space-between;
-}
-
 #aboutProduct{
-
+  display: inline-block;
 }
 
 #aboutProduct p{
-  padding-top: 170px;
-  padding-bottom: 0px;
 }
 
 #aboutProduct img{
-  padding-right: 160px;
-  margin: 0;
+
 }
 
 #messageTextField{
     height: 150px;
+}
+
+#aboutUs{
 }
