@@ -3,6 +3,7 @@
   padding: 0px;
   font-family: Helvetica, sans-serif, Arial;
   color: #262626;
+  scroll-behavior: smooth;
 }
 
 body, footer{
@@ -82,10 +83,9 @@ iframe{
 
 .container{
   display: block;
-  margin-top: 40px;
+  margin-top: 105px;
   height: 1040px;
   width: 100%;
-  border: 0px 40px;
 }
 
 .right{
