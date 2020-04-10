@@ -7,17 +7,19 @@
 }
 
 body, footer{
+  width: 100%;
   background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
 }
 
-header{
+
+header {
   position: fixed;
   height: auto;
   width: 100%;
   background-color: #1a1a32;
 }
 
-label{
+label {
   color: #9e9ea5;
   font-size: 30px;
   font-family: sans-serif;
@@ -27,7 +29,7 @@ label{
 
 input{
     border-radius: 40px;
-    //margin-left: 590px;
+    margin-left: 590px;
     height: 30px;
     width: 500px;
     margin-top: 0px;
@@ -41,12 +43,12 @@ h1{
 }
 
 p{
-  font-size: 30px;
+  font-size: 20px;
   width: 50%;
   text-align: justify;
 }
 
-form{
+form {
   background-color: #4a4a5d;
   height: 600px;
   border-radius: 30px;
@@ -57,12 +59,12 @@ form h1{
   padding-left: 750px;
 }
 
-form input #sendbutton{
+form input #sendbutton {
     margin-left: 800px;
     width: 100px;
     height: 30px;
     margin-top: 40px;
-    border-radius: 30px;
+    border-radius: 10px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -70,16 +72,18 @@ form input #sendbutton{
     font-size: 20px;
 }
 
-iframe{
+iframe {
   width: 888px;
   height: 500px;
 }
 
-.container{
-  height: 1040px;
+.container {
+  height: 100%;
   width: 90%;
   margin: 105px auto 0px;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .right{
@@ -91,7 +95,7 @@ iframe{
   float: left;
 }
 
-.container img{
+.container img {
 
 }
 
@@ -100,7 +104,7 @@ iframe{
   width: auto;
 }
 
-#menu nav{
+#menu nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,9 +128,15 @@ iframe{
   text-decoration: none;
 }
 
-#welcome{
+#welcome {
   display: inline-block;
-  margin-top: 210px;
+  justify-content: space-between;
+  width: auto;
+}
+#welcome img {
+  padding: 10px;
+ max-width: 100%;
+  height: auto;
 }
 
 #welcome h1{
@@ -158,15 +168,20 @@ iframe{
   padding: 0px 15px;
 }
 
-#aboutProduct{
+#aboutProduct {
+  padding: 30px;
+  width: 100%;
   display: inline-block;
 }
 
 #aboutProduct p{
 }
 
-#aboutProduct img{
-
+#aboutProduct img {
+  width: 50%;
+  height: auto; 
+  float: right;
+  margin-right: 20%;
 }
 
 #messageTextField{
