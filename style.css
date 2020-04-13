@@ -140,8 +140,8 @@ iframe {
 }
 
 #welcome h1{
-  /*padding-right: 0px;
-  margin: 200px 130px 0px;*/
+  padding-left: 100px;
+  padding-top: 100px;
 }
 
 #welcome h3{
@@ -179,7 +179,7 @@ iframe {
 
 #aboutProduct img {
   width: 50%;
-  height: auto; 
+  height: auto;
   float: right;
   margin-right: 20%;
 }
