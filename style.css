@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 
 html{
   font-family: Helvetica, Arial;
@@ -28,8 +31,20 @@ nav{
   padding: 16px 0;
 }
 
-img{
-  height: 50px;
+.container{
+  width: 100%;
+  max-width: 1568px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.right{
+  float: right;
+  overflow: hidden;
+}
+
+.left{
+  float: left;
 }
 
 .menu li{
@@ -47,9 +62,39 @@ img{
   color: #0088a9;
 }
 
-.container{
-  width: 100%;
-  max-width: 1568px;
-  margin: 0 auto;
-  padding: 0 24px;
+.menu img{
+  height: 50px;
+}
+
+#welcome{
+  margin-top: 85px;
+  padding-top: 64px;
+  font-family: 'Roboto Mono';
+}
+
+
+#welcome h1{
+  padding-top: 32px;
+  font-size: 40px;
+}
+
+#welcome h2{
+  padding: 8px 0;
+  font-size: 30px;
+}
+
+#welcome img{
+  padding-top: 64px;
+}
+
+#aboutProduct{
+  clear: both;
+  height: 100px;
+  color: white;
+}
+
+#aboutProductBackgroud{
+  clear: both;
+  background-color: #72b9c0;
+  margin-top: 64px;
 }
