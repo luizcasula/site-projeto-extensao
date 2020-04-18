@@ -1,192 +1,55 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  font-family: Helvetica, sans-serif, Arial;
+
+html{
+  font-family: Helvetica, Arial;
   color: #262626;
-  scroll-behavior: smooth;
+  font-size: 12px;
+  box-sizing: border-box;
 }
 
-body, footer{
-  width: 100%;
+body{
   background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
 }
 
-
-header {
-  position: fixed;
-  height: auto;
+header{
   width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
   background-color: #1a1a32;
+  box-shadow: 0px 2px 5px grey;
 }
 
-label {
-  color: #9e9ea5;
-  font-size: 30px;
-  font-family: sans-serif;
-  padding-left: 600px;
-  margin-bottom: 0px;
-}
-
-input{
-    border-radius: 40px;
-    margin-left: 590px;
-    height: 30px;
-    width: 500px;
-    margin-top: 0px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
-
-h1{
-  font-size: 50px;
-}
-
-p{
-  font-size: 20px;
-  width: 50%;
-  text-align: justify;
-}
-
-form {
-  background-color: #4a4a5d;
-  height: 600px;
-  border-radius: 30px;
-}
-
-form h1{
-  color: white;
-  padding-left: 750px;
-}
-
-form input #sendbutton {
-    margin-left: 800px;
-    width: 100px;
-    height: 30px;
-    margin-top: 40px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    background-color: #1a1a33;;
-    font-size: 20px;
-}
-
-iframe {
-  width: 888px;
-  height: 500px;
-}
-
-.container {
-  height: 100%;
-  width: 90%;
-  margin: 105px auto 0px;
-  align-items: center;
+nav{
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-
-.right{
-  float: right;
-  overflow: hidden;
-}
-
-.left{
-  float: left;
-}
-
-.container img {
-
-}
-
-#logo{
-  height: 75px;
-  width: auto;
-}
-
-#menu nav {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px 20%;
-  font-family: Arial;
-
+  justify-content: space-between;
+  padding: 16px 0;
 }
 
-#menu li {
+img{
+  height: 50px;
+}
+
+.menu li{
   display: inline-block;
   padding: 0px 40px;
 }
 
-#menu li a:hover{
-  color: #0088a9;
-}
-
-#menu li, a{
+.menu li a{
   font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
 }
 
-#welcome {
-  display: inline-block;
-  justify-content: space-between;
-  width: auto;
-}
-#welcome img {
-  padding: 10px;
- max-width: 100%;
-  height: auto;
+.menu li a:hover{
+  color: #0088a9;
 }
 
-#welcome h1{
-  padding-left: 100px;
-  padding-top: 100px;
-}
-
-#welcome h3{
-    font-size: 35px;
-  /*margin: 0px 190px;
-  padding-right: 0px;*/
-}
-/*
-#welcome .left{
-  width: 50%;
-}
-
-#welcome .right{
-  width: 50%;
-}*/
-
-#button{
-  margin: 350px 150px;
-}
-
-#button a img{
-  height: 200px;
-  width: 220px;
-  padding: 0px 15px;
-}
-
-#aboutProduct {
-  padding: 30px;
+.container{
   width: 100%;
-  display: inline-block;
-}
-
-#aboutProduct p{
-}
-
-#aboutProduct img {
-  width: 50%;
-  height: auto;
-  float: right;
-  margin-right: 20%;
-}
-
-#messageTextField{
-    height: 150px;
-}
-
-#aboutUs{
+  max-width: 1568px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
