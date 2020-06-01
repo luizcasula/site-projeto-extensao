@@ -4,6 +4,7 @@
   font-family: Helvetica, sans-serif, Arial;
   color: #262626;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body, footer{
@@ -11,12 +12,13 @@ body, footer{
   background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
 }
 
-
 header {
   position: fixed;
+  top: 0;
   height: auto;
   width: 100%;
   background-color: #1a1a32;
+  backdrop-filter: saturate(180%) blur(20px); 
 }
 
 label {
@@ -78,12 +80,11 @@ iframe {
 }
 
 .container {
-  height: 100%;
-  width: 90%;
-  margin: 105px auto 0px;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .right{
@@ -95,34 +96,31 @@ iframe {
   float: left;
 }
 
-.container img {
 
-}
-
-#logo{
-  height: 75px;
+.logo{
+  height: 50px;
   width: auto;
 }
 
-#menu nav {
+.menu nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20%;
-  font-family: Arial;
-
 }
 
-#menu li {
+.menu li {
   display: inline-block;
-  padding: 0px 40px;
+  padding: 6px 40px;
+  vertical-align: middle;
 }
 
-#menu li a:hover{
+.menu li a:hover{
   color: #0088a9;
 }
 
-#menu li, a{
+.menu li, a{
   font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
@@ -146,17 +144,8 @@ iframe {
 
 #welcome h3{
     font-size: 35px;
-  /*margin: 0px 190px;
-  padding-right: 0px;*/
-}
-/*
-#welcome .left{
-  width: 50%;
 }
 
-#welcome .right{
-  width: 50%;
-}*/
 
 #button{
   margin: 350px 150px;
@@ -174,8 +163,6 @@ iframe {
   display: inline-block;
 }
 
-#aboutProduct p{
-}
 
 #aboutProduct img {
   width: 50%;
@@ -186,7 +173,4 @@ iframe {
 
 #messageTextField{
     height: 150px;
-}
-
-#aboutUs{
 }
