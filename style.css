@@ -65,6 +65,7 @@
 }
 
 body{
+  margin: 0;
     background: linear-gradient(to right, #e9ebea 0%, #9fd0d4 100%);
 }
 
@@ -98,7 +99,8 @@ body{
 }
 
 #aboutproduct{
-    padding-top: 10%;
+    padding: 10% 0;
+    margin: 10% 0;
 }
 
 #texts{
@@ -144,8 +146,9 @@ body{
     height: 541px;
 }
 
-#contact{
-    padding-top: 10%;
+#contactus{
+    padding: 5% 0 0;
+    margin: 10% 0 5%;
 } 
 
 #contactdiv{
@@ -248,3 +251,35 @@ html{
   scroll-behavior: smooth;
 }
 
+#bottomContact {
+  clear: both;
+}
+
+footer{
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul li{
+  display: inline;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 104px 64px;
+}
+
+footer ul li a{
+  display: inline-flex;
+  color: #384797;
+  text-decoration: none;
+}
+
+footer ul li a svg{
+  padding: 0 8px;
+}
