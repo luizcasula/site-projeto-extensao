@@ -1,52 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html>
 
-  <head>
-    <title>+Bus</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-  </head>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-
-    <header>
-      <div class="container">
-        <nav class="menu">
-          <a href=""><img src="public/images/logo.png" id=""></a>
-          <ul>
-            <li><a href="#welcome">Home</a></li>
-            <li><a href="#aboutProductHR">Sobre o Produto</a></li>
-            <li><a href="#aboutUsHR">Sobre Nós</a></li>
-            <li><a href="#contactHR">Contato</a></li>
-          </ul>
-        </nav>
+<body>
+  <nav id="menu">
+    <uL>
+      <li><img src="Public/images/logo.png" height="64" width="64" id="logo"> </li>
+      <li><a href=""> Home </a></li>
+      <li><a href="#divproduct"> Sobre o Produto </a></li>
+      <li><a href="#contactus"> Contato </a></li>
+    </uL>
+  </nav>
+  <section id="welcomepage">
+    <div id="firstcontent">
+      <!--First Container-->
+      <div id="txtcontainer-left">
+        <h1 id="command"> Baixe agora!</h1>
+        <h3 id="catchphrase"> +Bus, Mais informação sobre seu ônibus</h3>
       </div>
-    </header>
 
+      <img src="Public/images/Celular.png" height="auto" width="auto" id="cellphone">
 
-    <div class="container">
-      <div id="welcome">
-        <div class="left">
-          <h1>+Bus, muito mais sobre seu ônibus!</h1>
-          <h2>BAIXE AGORA!</h2>
-        </div>
-        <div class="right">
-          <img src="public/images/celular.png" id="cellphone">
-        </div>
+      <div id="txtcontainer-right">
+
+      </div>
+
+      <img src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" height="200px" width="220px"
+        id="applestore">
+      <img src="https://cdn.worldvectorlogo.com/logos/google-play-download-android-app.svg" height="200px" width="220px"
+        id="googleplay">
+
+    </div>
+  </section>
+  <section id="aboutproduct">
+    <div id="divproduct">
+      <div id="texts">
+        <h3 id="theproduct"> O produto </h3>
+        <h1 id="proposal"> O aplicativo +Bus tem como finalidade promover a facilidade no <br> deslocamento de pessoas
+          na cidade utilizando-se do transporte <br> público, tornando assim sua viagem mais fácil, rápida e barata.
+        </h1>
+      </div>
+      <div id="poligonsimg">
+        <img src="Public/images/Poligon.png" height="auto" width="auto" id="poligons">
       </div>
     </div>
-
-
-    <div id="aboutProductBackgroud">
-      <div class="container">
-        <div id="aboutProduct">
-          <h1>Sobre o Produto</h1>
-        </div>
+  </section>
+  <section id="contact">
+    <div id="contactdiv">
+      <h1 id="senduslabel">Envie-nos uma mensagem!</h1>
+      <div id="rightside">
+        <h2 id="Namelbl">Nome</h2>
+        <input type="text" id="nametxt" class="textfield">
       </div>
+      <div id="leftside">
+        <h2 id="Emaillbl">Email</h2>
+        <input type="text" id="emailtxt" class="textfield">
+      </div>
+      <h2 id="Messagelbl">Mensagem</h2>
+      <input type="text" id="msgtxt" class="textfield">
+      <input type="button" id="submit" class="bt" value="Enviar">
     </div>
+  </section>
+</body>
 
-  </body>
 </html>
